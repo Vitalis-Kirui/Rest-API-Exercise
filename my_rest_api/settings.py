@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # this line for new registering app
+    'rest_framework',
+    'product_api',
 ]
 
 MIDDLEWARE = [
